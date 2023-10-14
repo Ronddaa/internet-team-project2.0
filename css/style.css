@@ -1,97 +1,80 @@
-.tariff-offers {
-  padding: 175px 0;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-.tariff-title {
-  color: #2E363E;
-text-align: center;
-font-family: Inter;
-font-size: 36px;
-font-weight: 700;
-line-height: 1.33em; 
-margin-bottom: 60px;
+body {
+    font-family: "Roboto" sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 
-.offers-list {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 20px;
-  list-style: none;
+
+
+/* Стилі для обнулення верхніх відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+a {
+    margin: 0;
+    padding: 0;
 }
 
-.offers-item {
-  border-radius: 10px;
-  background: #FFF;
-  box-shadow: 2px 4px 15px 0px rgba(0, 0, 0, 0.05);
-  max-width: 380px;
+img {
+    display: block;
+    width: 100%;
 }
 
-.tariff-img {
-  margin: 20px auto 0 auto;
+ul, ol, li{
+    text-decoration: none;
 }
 
-.offers-content {
-  padding: 47px 35px 42px 35px;
-  min-width: 380px;
-  position: relative;
+/*======================================Modal================*/
+
+.backdrop {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.56);
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
-.tariff-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 13px;
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
-.tariff-name {
-  font-size: 27px;
-  line-height: 1.1;
-  margin-right: 60px;
+.modal {
+    width: 650px;
+       min-height: 854px;
+
+       position: absolute;
+       top:50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       background-color: #ffffff;
 }
 
-.tariff-price {
-  color: #434b53;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 1.1;
-}
+.modal-btn-close {
+    width: 24px;
+    height: 24px;
 
-.tariff-description {
-  font-size: 16px;
-  line-height: 1.1;
-  margin-bottom: 12px;
-  text-align: left;
-}
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
 
-.tariff-speed {
-  color: #2E363E;
-  font-family: Inter;
-  font-size: 16px;
-  line-height: 1.1em;
-  margin-bottom: 75.5px;
-  text-align: left;
 }
-
-.tariff-speed span {
-  color: #2E363E;
-font-size: 18px;
-font-weight: 600;
-line-height: 1.1em;
-}
-
-.tariff-link {
-  display: block;
-  color: #5F0A61;
-  font-family: Inter;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.1em;
-  position: absolute;
-  right: 36px;
-  bottom: 40px;
-}
-
 
