@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat&family=Reem+Kufi&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
 
-<body>
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat&family=Reem+Kufi&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
 
 
     <!-- Header Sergii -->
 
+
         <!-- hero Anastasia -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Reliable Home Internet and TV Provider</h1>
+                <p class="hero-text">
+                    We work only in small towns. Thanks to this, we maintain quality and
+                    we will not spra
+                </p>
+                <img class="hero-image" src="./images/hero.svg" alt="Reliable Home Internet and TV Provider" />
+                <button class="hero-btn" data-modal-open type="button">Submit your application</button>
+            </div>
+        </section>
 
         <!-- company Valia -->
+            <section class="company">
+    <div class="container">
+        <h2 class="company-title">Why choose our company</h2>
+        <ui>
+            <li>
+                <svg class="company-icon">
+                    <use href="./images/symbol-defs.svg#icon-speed"></use>
+                </svg>
+                <h3 class="company-subtitle">Speed</h3>
+                <p class="company-text">Thanks to GPON and a backup line, we guarantee the speed right under  the contract</p>
+            </li>
+            <li>
+                <svg class="company-icon">
+                    <use href="./images/symbol-defs.svg#icon-installation"></use>
+                </svg>
+                <h3 class="company-subtitle">Installation</h3>
+                <p>We carefully mount the cable, without damaging the interior of your apartment
+                    or house</p>
+            </li>
+            <li>
+                <svg class="company-icon">
+                    <use href="./images/symbol-defs.svg#icon-support"></use>
+                </svg>
+                <h3 class="company-subtitle">Support</h3>
+                <p>Round-the-clock help in the application or via the hotline, even on holidays you can get an answer to your question</p>
+            </li>
+        </ui>
+    </div>
+</section>
 
         <!-- connect Oleksandr -->
 <section class="section">
@@ -50,7 +100,51 @@
         <!-- Tariff Maksim -->
 
         <!-- contact Hanna -->
-
+       <section class="contact-section">
+        <div class="container">
+          <h2 class="contact-title">
+            Leave a request and our manager will contact you shortly
+          </h2>
+          <p class="contact-text">
+            You will have the opportunity to discuss details and ask clarifying
+            questions
+          </p>
+          <form class="contact-form">
+            <input
+              class="contact-form-phone"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              placeholder="Phone number"
+              required
+            />
+            <input
+              class="contact-form-name"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              required
+            />
+            <button type="submit" class="contact-form-btn">
+              Order calculation
+            </button>
+            <input
+              class="contact-form-checkbox"
+              type="checkbox"
+              name="user-agreement"
+              id="user-agreement"
+              required
+            />
+            <label for="user-agreement" class="contact-form-label"
+              >By clicking on the button, you agree to the
+              <a class="contact-form-terms" href=""
+                >terms of processing personal data</a
+              ></label
+            >
+          </form>
+        </div>
+      </section>
 
 
     </main>
@@ -58,7 +152,8 @@
     <!-- footer Oleksa -->
 
     <!-- modal window  -->
-    
-</body>
+
+  </body>
 
 </html>
+
