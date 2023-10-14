@@ -28,6 +28,11 @@ a {
 
 img {
     display: block;
+    width: 100%;
+}
+
+ul, ol, li{
+    text-decoration: none;
 }
 
 /*======================================Modal================*/
