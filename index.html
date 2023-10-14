@@ -10,14 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
 
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat&family=Reem+Kufi&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat&family=Reem+Kufi&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
 
 
     <!-- Header Sergii -->
@@ -40,6 +43,7 @@
       </div>
     </header>
     <main>
+
 
         <!-- hero Anastasia -->
         <section class="hero">
@@ -92,19 +96,60 @@
         <!-- Tariff Maksim -->
 
         <!-- contact Hanna -->
+       <section class="contact-section">
+        <div class="container">
+          <h2 class="contact-title">
+            Leave a request and our manager will contact you shortly
+          </h2>
+          <p class="contact-text">
+            You will have the opportunity to discuss details and ask clarifying
+            questions
+          </p>
+          <form class="contact-form">
+            <input
+              class="contact-form-phone"
+              type="tel"
+              name="user-phone"
+              id="user-phone"
+              placeholder="Phone number"
+              required
+            />
+            <input
+              class="contact-form-name"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              required
+            />
+            <button type="submit" class="contact-form-btn">
+              Order calculation
+            </button>
+            <input
+              class="contact-form-checkbox"
+              type="checkbox"
+              name="user-agreement"
+              id="user-agreement"
+              required
+            />
+            <label for="user-agreement" class="contact-form-label"
+              >By clicking on the button, you agree to the
+              <a class="contact-form-terms" href=""
+                >terms of processing personal data</a
+              ></label
+            >
+          </form>
+        </div>
+      </section>
+
 
     </main>
 
     <!-- footer Oleksa -->
 
     <!-- modal window  -->
-  <div class="backdrop is-hidden" data-modal >
-    <div class="modal"><button data-modal-close type="button" class="modal-btn-close">x</button></div>
-  </div>
 
-  <script src="./js/modal.js"></script>
-
-</body>
+  </body>
 
 </html>
 
