@@ -30,6 +30,51 @@ img {
     display: block;
 }
 
+ul {
+    list-style: none;
+}
+
+/*============================company Valia===================*/
+.company {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 172px;
+padding-bottom: 172px;
+padding-left: 130px;
+padding-right: 130px;
+}
+
+.company-title {
+text-align: center;
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 4.8;
+margin-bottom: 60px;
+}
+
+.company-list {
+    display: flex;
+    gap: 66.58px;
+}
+
+.company-item {
+    width: calc((100% - 2 * 66,58px) / 3);
+}
+
+.company-img {
+width: 71.701px;
+height: 70px;
+flex-shrink: 0;
+justify-content: center;
+}
+
+
+
+
+
 /*======================================Modal================*/
 
 .backdrop {
